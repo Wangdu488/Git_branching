@@ -9,25 +9,25 @@ Benefits
 2. collaborative coding
 
 ## How to create a branch
-'''
+```
 git branch "branch name"
-'''
+```
 
 ### Switching between branches
-'''
+```
 git switch branch branch name
 git checkout branchname
-'''
-'''bash
+```
+```bash
     git checkout -b branchname
-'''
+```
 
 #### Merging Branches
-'''bash
+```bash
     git merge sourcebranch
-'''
+```
 
 ### conflicts
-'''
+```
     git mergetool
-'''
+```
