@@ -9,15 +9,15 @@ Benefits
 2. collaborative coding
 
 ## How to create a branch
-***
+'''
 git branch "branch name"
-***
+'''
 
 ### Switching between branches
-***
+'''
 git switch branch branch name
 git checkout branchname
-***
+'''
 '''bash
     git checkout -b branchname
 '''
@@ -28,6 +28,6 @@ git checkout branchname
 '''
 
 ### conflicts
-***
+'''
     git mergetool
-***
+'''
